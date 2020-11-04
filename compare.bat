@@ -1,0 +1,1 @@
+echo Lua && powershell -Command "time lua ./src/main.lua" && echo Ruby && powershell -Command "time ruby ./src/main.rb" && echo Rust && powershell -Command "time cargo run -q" && echo Python && powershell -Command "time python ./src/main.py" && echo NodeJS && powershell -Command "time node ./src/main.js"
